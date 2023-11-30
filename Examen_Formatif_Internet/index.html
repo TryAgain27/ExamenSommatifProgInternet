@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Demo pour la validation de formulaire avec JS</title>
+    
+</head>
+<body >
+    <div class="container">
+        <form id="signup" class="form">
+            <h1>Enregistrement</h1>
+            <div class="form-field">
+                <label for="username">Nom d'usager:</label>
+                <input type="text" name="username" id="username" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="email">Courriel:</label>
+                <input type="text" name="email" id="email" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="password">Mot de Passe:</label>
+                <input type="password" name="password" id="password" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="confirm-password">Confirmer Mot de Passe:</label>
+                <input type="password" name="confirm-password" id="confirm-password" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <input type="submit" value="S'enregistrer">
+            </div>
+        </form>
+    </div>
+    <script src="JS/app.js"></script>
+</body>
+</html>
